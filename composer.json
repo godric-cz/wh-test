@@ -1,0 +1,5 @@
+{
+    "require": {
+        "godric/github-deployment": "dev-master"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "11e8e05f828f951343684eeea25c89a2",
+    "packages": [
+        {
+            "name": "godric/github-deployment",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/godric-cz/github-deployment.git",
+                "reference": "0ac565934b352b190dc9f45dc7ba62a0b2dc7d3f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/godric-cz/github-deployment/zipball/0ac565934b352b190dc9f45dc7ba62a0b2dc7d3f",
+                "reference": "0ac565934b352b190dc9f45dc7ba62a0b2dc7d3f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Godric\\GithubDeployment\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Deployment with GitHub and pure PHP. No git on server or ftp needed.",
+            "time": "2017-10-18 17:25:40"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "godric/github-deployment": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
